@@ -25,7 +25,7 @@ SECRET_KEY = '16ptpqka!zi89%cozf5trb@*rp(-7rp+8i7x$+84l+(mbko%$b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['delacruzoliver.com', '.delacruzoliver.com', 'www.delacruzoliver.com']
 
 
 # Application definition
