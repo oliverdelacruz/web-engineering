@@ -2,8 +2,147 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b26f35-21f8-4adc-a7f0-ff30dd125acc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ebdjango/.ebextensions/db-migrate.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebdjango/.ebextensions/django.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fontello/css/animation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fontello/css/fontello-codes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fontello/css/fontello-embedded.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fontello/css/fontello-ie7-codes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fontello/css/fontello-ie7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fontello/css/fontello.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fontello/font/fontello.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fontello/font/fontello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fontello/font/fontello.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fontello/font/fontello.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/librebaskerville/librebaskerville-bold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/librebaskerville/librebaskerville-bold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/librebaskerville/librebaskerville-bold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/librebaskerville/librebaskerville-bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/librebaskerville/librebaskerville-italic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/librebaskerville/librebaskerville-italic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/librebaskerville/librebaskerville-italic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/librebaskerville/librebaskerville-italic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/librebaskerville/librebaskerville-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/librebaskerville/librebaskerville-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/librebaskerville/librebaskerville-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/librebaskerville/librebaskerville-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Bold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Bold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Bold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-BoldItalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-BoldItalic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-BoldItalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-BoldItalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-ExtraBold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-ExtraBold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-ExtraBold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-ExtraBold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Italic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Italic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Italic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Italic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Light-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Light-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Light-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-LightItalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-LightItalic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-LightItalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-LightItalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Semibold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Semibold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Semibold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-Semibold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/fonts/opensans/OpenSans-SemiboldItalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/css/media-queries.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/header-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/overlay-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/overlay-zoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/coffee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/console.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/farmerboy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/girl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/into-the-light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/judah.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/modals/m-coffee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/modals/m-console.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/modals/m-farmerboy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/modals/m-girl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/modals/m-intothelight.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/modals/m-judah.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/modals/m-origami.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/modals/m-retrocam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/origami.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/portfolio/retrocam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/profilepic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/sample-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/images/testimonials-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/inc/sendEmail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/js/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/js/jquery.fittext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/js/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/js/magnific-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/js/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/static/js/waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/templates/resume/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/templates/resume/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/templates/resume/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/templates/resume/results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebdjango/resume/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebdjango/ebdjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ebdjango/ebdjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebdjango/ebdjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ebdjango/ebdjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebdjango/resume/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ebdjango/resume/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,40 +152,76 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="django.config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebdjango/.ebextensions/django.config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebdjango/.elasticbeanstalk/config.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ebdjango/ebdjango/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="2329">
+              <caret line="137" selection-start-line="137" selection-end-line="137" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db-migrate.config" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ebdjango/.ebextensions/db-migrate.config">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebdjango/ebdjango/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#632#664#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebdjango/resume/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebdjango/resume/templates/resume/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8823">
+              <caret line="519" column="24" selection-start-line="519" selection-start-column="24" selection-end-line="519" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ebdjango/resume/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#632#664#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>enum</find>
+      <find>href</find>
+      <find>images</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,8 +232,16 @@
         <option value="$PROJECT_DIR$/website/website/settings.py" />
         <option value="$PROJECT_DIR$/ebdjango/website/settings.py" />
         <option value="$PROJECT_DIR$/ebdjango/.ebextensions/django.config" />
+        <option value="$PROJECT_DIR$/ebdjango/requirements.txt" />
         <option value="$PROJECT_DIR$/ebdjango/.ebextensions/db-migrate.config" />
+        <option value="$PROJECT_DIR$/ebdjango/.ebextensions/securelistener-clb.config" />
+        <option value="$PROJECT_DIR$/ebdjango/.ebextensions/http_redirect.config" />
+        <option value="$PROJECT_DIR$/ebdjango/ebdjango/urls.py" />
+        <option value="$PROJECT_DIR$/ebdjango/resume/urls.py" />
+        <option value="$PROJECT_DIR$/ebdjango/resume/views.py" />
         <option value="$PROJECT_DIR$/ebdjango/ebdjango/settings.py" />
+        <option value="$PROJECT_DIR$/ebdjango/resume/templates/resume/index.html" />
+        <option value="$PROJECT_DIR$/ebdjango/try.py" />
       </list>
     </option>
   </component>
@@ -72,10 +255,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="374" />
-    <option name="y" value="10" />
-    <option name="width" value="1088" />
-    <option name="height" value="1274" />
+    <option name="x" value="-12" />
+    <option name="width" value="2502" />
+    <option name="height" value="1372" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -91,6 +273,11 @@
               <item name="web-engineering" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-engineering" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="web-engineering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-engineering" type="462c0819:PsiDirectoryNode" />
+              <item name="ebdjango" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -103,6 +290,16 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\web-engineering\ebdjango\resume\static\resume" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\web-engineering\ebdjango\resume\static" />
+      <recent name="C:\Projects\web-engineering\ebdjango\resume\templates\resume" />
+      <recent name="C:\Projects\web-engineering\ebdjango\resume" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,29 +328,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24941361" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,28 +358,161 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ebdjango/.ebextensions/django.config">
+    <entry file="file://$PROJECT_DIR$/ebdjango/ebdjango/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="2329">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/ebdjango/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/resume/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/resume/templates/resume/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8823">
+          <caret line="519" column="24" selection-start-line="519" selection-start-column="24" selection-end-line="519" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/resume/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/resume/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/resume/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/resume/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/ebdjango/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/resume/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/.ebextensions/http_redirect.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ebdjango/.elasticbeanstalk/config.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebdjango/ebdjango/settings.py">
+    <entry file="file://$PROJECT_DIR$/ebdjango/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="437">
+          <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ebdjango/.ebextensions/db-migrate.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="119">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/.ebextensions/securelistener-clb.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/.ebextensions/django.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/resume/static/resume/inc/sendEmail.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/resume/templates/resume/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/ebdjango/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/ebdjango/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/resume/templates/resume/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8823">
+          <caret line="519" column="24" selection-start-line="519" selection-start-column="24" selection-end-line="519" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/resume/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango/try.py" />
+    <entry file="file://$PROJECT_DIR$/ebdjango/resume/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
