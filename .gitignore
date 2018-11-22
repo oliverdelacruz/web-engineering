@@ -4,6 +4,5 @@
 *.csv
 
 # Ignore specific folders
-data/
 .idea/
 .eclipse
