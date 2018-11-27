@@ -325,13 +325,53 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+.data-mining {
+  	width: 95%;
+  	-moz-animation: data-mining 3s ease;
+  	-webkit-animation: data-mining 3s ease;
+}
+
+
+.data-visualization {
+  	width: 90%;
+  	-moz-animation: data-visualization 3s ease;
+  	-webkit-animation: data-visualization 3s ease;
+}
+
+.machine-learning {
+  	width: 100%;
+  	-moz-animation: machine-learning 3s ease;
+  	-webkit-animation: machine-learning 3s ease;
+}
+
+.databases {
+  	width: 90%;
+  	-moz-animation: databases 10s ease;
+  	-webkit-animation: databases 3s ease;
+}
+
+
+.statistics {
+  	width: 95%;
+  	-moz-animation: statistics 3s ease;
+  	-webkit-animation: statistics 3s ease;
+}
+
+
+.software-engineering {
+  	width: 80%;
+  	-moz-animation: software-engineering 3s ease;
+  	-webkit-animation: software-engineering 3s ease;
+}
+
+
 .photoshop {
   	width: 60%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 55%;
+  	width: 100%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
@@ -356,55 +396,64 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes data-mining {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 95%;  }
 }
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 100%;  }
 }
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
+@-moz-keyframes data-visualization {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes machine-learning {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
+}
+@-moz-keyframes databases {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes statistics {
+  0%   { width: 0px;  }
+  100% { width: 95%;  }
+}
+@-moz-keyframes software-engineering {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes data-mining {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 95%;  }
 }
 @-webkit-keyframes illustrator {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 100%;  }
 }
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
+@-webkit-keyframes data-visualization {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes machine-learning {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
+}
+@-webkit-keyframes databases {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes statistics {
+  0%   { width: 0px;  }
+  100% { width: 95%;  }
+}
+@-webkit-keyframes software-engineering {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
+
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
