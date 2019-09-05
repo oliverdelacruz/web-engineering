@@ -86,34 +86,13 @@ if 'RDS_DB_NAME' in os.environ:
         }
     }
 else:
-    # DATABASES = {
-    #     'default': {
-    #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    #         'NAME': 'dbdjango',
-    #         'USER': '******',
-    #         'PASSWORD': '****',
-    #         'HOST': '******',
-    #         'PORT': '5432',
-    #     }
-    # }
-    # DATABASES = {
-    #     'default': {
-    #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    #         'NAME': 'postgres',
-    #         'USER': 'postgres',
-    #         'PASSWORD': 'Report2018',
-    #         'HOST': 'localhost',
-    #         'PORT': '5432',
-    #     }
-    # }
-
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'dbdjango',
-            'USER': 'deoliver',
-            'PASSWORD': 'Report2018',
-            'HOST': 'dbdjango.cupdyqlo2cvl.us-east-1.rds.amazonaws.com',
+            'NAME': 'djangodev',
+            'USER': 'django_ro',
+            'PASSWORD': 'r1t3Tf83!',
+            'HOST': 'djangodev.cvpnrhsskucg.us-east-1.rds.amazonaws.com',
             'PORT': '5432',
         }
     }
