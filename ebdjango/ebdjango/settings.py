@@ -12,6 +12,12 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 
+# Check whether we are running in Linux system and go into debug mode if it Windows
+if os.name == 'nt':
+    DEBUG = True
+else:
+    DEBUG = False
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -23,8 +29,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '16ptpqka!zi89%cozf5trb@*rp(-7rp+8i7x$+84l+(mbko%$b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
 ALLOWED_HOSTS = ['*']
 
 
@@ -32,12 +36,14 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'resume',
+    'frontend',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -86,16 +92,28 @@ if 'RDS_DB_NAME' in os.environ:
         }
     }
 else:
+    # DATABASES = {
+    #     'default': {
+    #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #         'NAME': 'djangodev',
+    #         'USER': 'db_django',
+    #         'PASSWORD': 'r1t3Tf83!',
+    #         'HOST': 'djangodev.cvpnrhsskucg.us-east-1.rds.amazonaws.com',
+    #         'PORT': '5432',
+    #     }
+    # }
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'djangodev',
-            'USER': 'django_ro',
+            'NAME': 'postgres',
+            'USER': 'postgres',
             'PASSWORD': 'r1t3Tf83!',
-            'HOST': 'djangodev.cvpnrhsskucg.us-east-1.rds.amazonaws.com',
+            'HOST': '',
             'PORT': '5432',
         }
     }
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -143,3 +161,14 @@ if not DEBUG:
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+else:
+    SECURE_SSL_REDIRECT = False
+    SESSION_COOKIE_SECURE = False
+    CSRF_COOKIE_SECURE = False
+
+# REST API security settings
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny',
+    ]
+}

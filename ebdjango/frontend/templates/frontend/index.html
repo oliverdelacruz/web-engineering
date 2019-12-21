@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><!--suppress ALL, XmlHighlighting -->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+    <!--- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Oliver De La Cruz</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--- Load static files
+    ================================================== -->
+    {% load static %}
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- JQuery
+     ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-3.4.1.min.js"><\/script>')</script>
+
+    <!-- Bootstrap
+     ================================================== -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{% static "css/normalize.css" %}">
+    <link rel="stylesheet" href="{% static "css/custom.css" %}">
+
+    <!-- Script
+    ================================================== -->
+    <script src="{% static "js/modernizr.js" %}"></script>
+
+    <!-- Favicons
+     ================================================== -->
+</head>
+<body>
+
+<!-- Header
+================================================== -->
+<header id="header">
+    <div id="nav" class="columns"><!-- React --></div>
+    </nav>
+</header> <!-- Header End -->
+
+<!-- About Section
+================================================== -->
+<section id="about">
+</section> <!-- About Section End-->
+<section class="section">
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <picture>
+                    <source srcset="{% static "images/portfolio/kite.jpeg" %}" media="(min-width: 1400px)">
+                    <source srcset="{% static "images/portfolio/kite.jpeg" %}" media="(min-width: 768px)">
+                    <source srcset="{% static "images/portfolio/kite.jpeg" %}" media="(min-width: 576px)">
+                    <img srcset="{% static "images/portfolio/kite.jpeg" %}" alt="responsive image"
+                         class="d-block img-fluid">
+                    <div class="carousel-caption">
+                        <h3>french-castles</h3>
+                    </div>
+                </picture>
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source srcset="{% static "images/portfolio/coffee.jpg" %}" media="(min-width: 1400px)">
+                    <source srcset="{% static "images/portfolio/coffee.jpg" %}" media="(min-width: 768px)">
+                    <source srcset="{% static "images/portfolio/coffee.jpg" %}" media="(min-width: 576px)">
+                    <img srcset="{% static "images/portfolio/kite.jpeg" %}" alt="responsive image"
+                         class="d-block img-fluid">
+                </picture>
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source srcset="{% static "images/portfolio/tennis.jpeg" %}" media="(min-width: 1400px)">
+                    <source srcset="{% static "images/portfolio/tennis.jpeg" %}" media="(min-width: 768px)">
+                    <source srcset="{% static "images/portfolio/tennis.jpeg" %}" media="(min-width: 576px)">
+                    <img srcset="{% static "images/portfolio/tennis.jpeg" %}" alt="responsive image"
+                         class="d-block img-fluid">
+                </picture>
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="row align-items-center justify-content-center">
+            <div class="col" style="flex-grow: 0">
+                <div class="card" style="width:250px;">
+                    <img class="card-img-top" src="{% static "images/portfolio/tennis.jpeg" %}" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="flex-grow: 0">
+                <div class="card" style="width:250px;">
+                    <img class="card-img-top" src="{% static "images/portfolio/tennis.jpeg" %}" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="flex-grow: 0">
+                <div class="card" style="width:250px;">
+                    <img class="card-img-top" src="{% static "images/portfolio/tennis.jpeg" %}" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="flex-grow: 0">
+                <div class="card" style="width:250px;">
+                    <img class="card-img-top" src="{% static "images/portfolio/tennis.jpeg" %}" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="flex-grow: 0">
+                <div class="card" style="width:250px;">
+                    <img class="card-img-top" src="{% static "images/portfolio/tennis.jpeg" %}" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="flex-grow: 0">
+                <div class="card" style="width:250px;">
+                    <img class="card-img-top" src="{% static "images/portfolio/tennis.jpeg" %}" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #edf1f5;">
+        <h4>Making a better world</h4>
+        <div class="row">
+            <div class="col align-items-stretch">
+                <div class="home-category-card home-category-card__alt-data" data-test-home="alt-data-feature"
+                     style="background-image: url({% static "images/img_card.svg" %}), linear-gradient(135deg,#0b5c73 0,#0a2d3f 100%);">
+                    <h1 class="home-category-card--sub-header">For Institutional Clients Only</h1>
+                    <h3 class="home-category-card--header">Alternative Data</h3>
+                    <p class="home-category-card--paragraph">We bring undiscovered data from non-traditional publishers
+                        to
+                        investors
+                        seeking unique, predictive insights. We leverage exclusive relationships to deliver these
+                        alpha-generating
+                        datasets to our customers.</p>
+                    <div class="home-category-card--sub-header home-category-card--sub-header--small">Featured Data
+                    </div>
+                    <div class="home-category--list-container">
+                        <ul class="home-category--list">
+                            <li class="home-category-card--list-item">
+                                <a data-test-featured-alt-dataset="auto-sales-estimates"
+                                   href="/alternative-data/auto-sales-estimates" id="ember50"
+                                   class="home-category-card--list-item-link ember-view">Auto Sales Estimates</a>
+                            </li>
+                            <li class="home-category-card--list-item">
+                                <a data-test-featured-alt-dataset="company-hiring-activity"
+                                   href="/alternative-data/company-hiring-activity" id="ember51"
+                                   class="home-category-card--list-item-link ember-view">Company Hiring Activity</a>
+                            </li>
+                            <li class="home-category-card--list-item">
+                                <a data-test-featured-alt-dataset="corporate-aviation-intelligence"
+                                   href="/alternative-data/corporate-aviation-intelligence" id="ember52"
+                                   class="home-category-card--list-item-link ember-view">Corporate Aviation
+                                    Intelligence</a>
+                            </li>
+                            <li class="home-category-card--list-item">
+                                <a data-test-featured-alt-dataset="company-spending-and-payment-patterns"
+                                   href="/alternative-data/company-spending-and-payment-patterns" id="ember53"
+                                   class="home-category-card--list-item-link ember-view">Company Spending and Payment
+                                    Patterns</a>
+                            </li>
+                            <li class="home-category-card--list-item">
+                                <a data-test-featured-alt-dataset="fx-transaction-volumes"
+                                   href="/alternative-data/fx-transaction-volumes" id="ember54"
+                                   class="home-category-card--list-item-link ember-view">FX Transaction Volumes</a>
+                            </li>
+                            <li class="home-category-card--list-item">
+                                <a data-test-featured-alt-dataset="fx-flow-monitor"
+                                   href="/alternative-data/fx-flow-monitor"
+                                   id="ember55" class="home-category-card--list-item-link ember-view">FX Flow
+                                    Monitor</a>
+                            </li>
+
+                            <li class="home-category-card--list-item-last">
+                                <h4 class="small-header f-color-white u-margin-bottom-10">View All Alternative Data
+                                    Products</h4>
+                                <p class="home-category-card--paragraph">Quandl’s Alternative Data Portfolio is
+                                    available to
+                                    select
+                                    institutional clients. View the alternative data products we offer along with our
+                                    data
+                                    science
+                                    team’s analysis of the predictive value of each.</p>
+                                <a class="u-uppercase" data-test-home="adp-request-access" data-ember-action=""
+                                   data-ember-action-56="56">Request access</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a data-test-home="learn-more" href="/alternative-data" id="ember57"
+                       class="home-category-card--cta b-button b-button b-button--blue ember-view"> Learn more about
+                        alternative
+                        data
+                    </a>
+                </div>
+            </div>
+            <div class="col align-items-stretch">
+                <div class="home-category-card home-category-card__core-data" data-test-home="core-data-feature"
+                     style="background-image: url({% static "images/core-financial-card-bg.png" %}), linear-gradient(135deg,#0b5c73 0,#0a2d3f 100%);">
+                    <h1 class="home-category-card--sub-header">For Everyone</h1>
+                    <h3 class="home-category-card--header">Core Financial Data</h3>
+                    <p class="home-category-card--paragraph">Quandl delivers market data from hundreds of sources via
+                        API,
+                        or
+                        directly into Python, R, Excel and many other tools. Save time and money by getting the data you
+                        need in
+                        the format you want.</p>
+                    <div class="home-category-card--sub-header home-category-card--sub-header--small">Featured Data
+                    </div>
+                    <div class="home-category--list-container">
+                        <ul class="home-category--list">
+                            <li class="home-category-card--list-item">
+                                <a data-test-home="EOD" href="/data/EOD" id="ember59"
+                                   class="home-category-card--list-item-link ember-view">End of Day US Stock Prices</a>
+                            </li>
+                            <li class="home-category-card--list-item">
+                                <a data-test-home="SF1" href="/databases/SF1" id="ember60"
+                                   class="home-category-card--list-item-link ember-view">Core US Fundamentals data</a>
+                            </li>
+                            <li class="home-category-card--list-item">
+                                <a data-test-home="VOL" href="/data/VOL" id="ember61"
+                                   class="home-category-card--list-item-link ember-view">US Equity Historical &amp;
+                                    Option
+                                    Implied Volatilities</a>
+                            </li>
+                            <li class="home-category-card--list-item">
+                                <a data-test-home="SCF" href="/databases/SCF" id="ember62"
+                                   class="home-category-card--list-item-link ember-view">Continuous Futures</a>
+                            </li>
+                            <li class="home-category-card--list-item">
+                                <a data-test-home="SGE" href="/data/SGE" id="ember63"
+                                   class="home-category-card--list-item-link ember-view">Trading Economics</a>
+                            </li>
+                            <li class="home-category-card--list-item">
+                                <a data-test-home="BNC2" href="/data/BNC2" id="ember64"
+                                   class="home-category-card--list-item-link ember-view">BNC Digital Currency Indexed
+                                    EOD</a>
+                            </li>
+                            <li class="home-category-card--list-item">
+                                <a data-test-home="MF1" href="/databases/MF1" id="ember65"
+                                   class="home-category-card--list-item-link ember-view">Global Fundamentals Data</a>
+                            </li>
+                            <li class="home-category-card--list-item">
+                                <a data-test-home="" href="/data/BCIW" id="ember66"
+                                   class="home-category-card--list-item-link ember-view">Global Index Prices</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="app" class="columns"><!-- React --></div>
+</section>
+
+<!-- Resume Section
+================================================== -->
+<section id="resume">
+</section> <!-- Resume Section End-->
+
+<!-- Testimonials Section
+================================================== -->
+<section id="testimonials">
+</section> <!-- Testimonials Section End-->
+
+<!-- Contact Section
+================================================== -->
+<section id="contact">
+</section> <!-- Contact Section End-->
+
+<!-- footer
+================================================== -->
+<footer>
+
+</footer> <!-- Footer End-->
+
+<!-- Java Script
+================================================== -->
+</body>
+<script src="{% static "frontend/main.js" %}"></script>
+</html>

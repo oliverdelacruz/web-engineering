@@ -4,5 +4,16 @@
 *.csv
 
 # Ignore specific folders
+data/
 .idea/
 .eclipse
+
+aws s3 sync . s3://oliverdelacruz --exclude ".git/*" --exclude '*git*' --exclude '/git*' --exclude '*git/' --exclude '*/git' --exclude "*.git/*"  --exclude "*/.git/*" 
+
+cd C:\Projects\venv\Scripts & activate python & cd .. & cd..
+
+(venv) C:\Projects\venv\Scripts>
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
