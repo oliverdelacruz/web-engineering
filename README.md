@@ -12,7 +12,7 @@ Install npm packages on your computer and python 3.7.
 ## User installation
 1. Install npm package
     ```
-    npx create-react-app my-app
+    npm install npm@latest -g
     ```
 2. Install python 3.7 and all the dependencies
     ```
