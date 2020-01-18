@@ -18,7 +18,7 @@ from django.urls import include, path
 from . import views
 
 urlpatterns = [
-    # path('', views.index, name='index'),
+    path('test/', views.index, name='index'),
     path('resume/', views.download, name='download'),
     path('api/resume', views.LeadListCreate.as_view(), name='api'),
 ]

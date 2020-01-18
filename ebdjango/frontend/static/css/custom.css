@@ -1,10 +1,7 @@
 /*
 Forces carousel image to be 100% width and not max width of 100%
 */
-.carousel-item .img-fluid { width:100%; height:100%; }/*
-Forces carousel image to be 100% width and not max width of 100%
-*/
-
+.carousel-item .img-fluid { width:100%; height:100%; }
 .carousel-inner img {
   margin: auto;
 }
@@ -17,3 +14,72 @@ Forces carousel image to be 100% width and not max width of 100%
   }
 }
 
+.home-menu, .home-hero .home-category-card--header, .home-category-card--sub-header {
+  color: #fff;
+  font-family: 'Quantico', sans-serif;
+}
+
+
+@media only screen and (max-width: 47.999em) {
+  .home-page-wide-wrapper {
+    padding: 0 15px;
+  }
+}
+
+.home-page-wide-wrapper {
+  position: relative;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+@media only screen and (max-width: 64.68em) and (min-width: 48em) {
+  .home-hero {
+    padding: 40px 0 60px;
+  }
+}
+
+.home-hero {
+    position: relative;
+    z-index: 0;
+    padding: 60px 0 80px;
+    overflow: hidden;
+    background-color: #edf1f5;
+}
+
+.home-category-card {
+  height: 100%
+}
+
+.angled-background {
+    display: block;
+    position: relative;
+    z-index: -1;
+}
+
+.home-hero .home-category-card--paragraph {
+    margin-bottom: 20px;
+    color: rgba(255,255,255,.75);
+    font-family: Rasa,Georgia,Garamond,serif;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+[class~=quandl-grid] {
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 0 -.5rem;
+}
+
+.home-category--list-container{
+  padding-bottom: 10%;
+}
+
+
+.home-category-card__alt-data {
+  background-repeat: no-repeat;
+  background-size: contain;
+}

@@ -10,13 +10,13 @@ const Nav = () => (
           <div className="collapse navbar-collapse flex-grow-0" id="collapsibleNavbar">
               <ul className="navbar-nav text-right">
                   <li className="Home">
-                      <a className="nav-link text-white font-weight-bold" href="#"><h5>Home</h5></a>
+                      <a className="nav-link text-white font-weight-bold" href="#"><h5 className="home-menu">Home</h5></a>
                   </li>
                   <li className="nav-item">
-                      <a className="nav-link text-white font-weight-bold" href="#"><h5>Projects</h5></a>
+                      <a className="nav-link text-white font-weight-bold" href="#"><h5 className="home-menu">Projects</h5></a>
                   </li>
                   <li className="nav-item">
-                      <a className="nav-link text-white font-weight-bold" href="#"><h5>Blog</h5></a>
+                      <a className="nav-link text-white font-weight-bold" href="#"><h5 className="home-menu">Blog</h5></a>
                   </li>
               </ul>
           </div>

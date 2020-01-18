@@ -45,7 +45,10 @@
     ================================================== -->
     <link rel="stylesheet" href="{% static "css/normalize.css" %}">
     <link rel="stylesheet" href="{% static "css/custom.css" %}">
-
+    <link href="https://fonts.googleapis.com/css?family=Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rasa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Georgia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Garamond&display=swap" rel="stylesheet">
     <!-- Script
     ================================================== -->
     <script src="{% static "js/modernizr.js" %}"></script>
@@ -58,13 +61,64 @@
 <!-- Header
 ================================================== -->
 <header id="header">
-    <div id="nav" class="columns"><!-- React --></div>
+    <div id="nav" class="columns intro"><!-- React --></div>
     </nav>
 </header> <!-- Header End -->
 
 <!-- About Section
 ================================================== -->
 <section id="about">
+     <div class="container-fluid home-hero" style="background-color: #edf1f5;">
+        <header>
+            <angled-background id="ember50" class="angled-background--move-down ember-view">
+                <div class="angled-background__content home-hero__angled-background"></div>
+            </angled-background>
+            <div class="home-page-wide-wrapper">
+                <div class="quandl-grid">
+                    <div class="col-8_md-12 home-hero-positioner">
+                        <h1 class="home-hero__header large-header large-header--emphasis">The world’s most powerful data
+                            lives on Quandl</h1>
+                        <p class="home-hero__summary paragraph paragraph--emphasis">The premier source for financial,
+                            economic, and alternative datasets, serving investment professionals. Quandl’s platform is
+                            used by over 400,000 people, including analysts from the world’s top hedge funds, asset
+                            managers and investment banks. More on <a href="/what-we-do" id="ember51"
+                                                                      class="home-hero__what-we-do ember-view">what we
+                                do</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="home-page-wide-wrapper row">
+            <div class="col align-items-stretch">
+                <div class="home-category-card home-category-card__alt-data" data-test-home="alt-data-feature"
+                     style="background-image: url({% static "images/img_card.svg" %}), linear-gradient(135deg,#0b5c73 0,#0a2d3f 100%);">
+                    <h3 class="home-category-card--header">Alternative Data</h3>
+                    <p class="home-category-card--paragraph">We bring undiscovered data from non-traditional publishers
+                        to
+                        investors
+                        seeking unique, predictive insights. We leverage exclusive relationships to deliver these
+                        alpha-generating
+                        datasets to our customers.</p>
+                    <div class="home-category--list-container">
+                    </div>
+                </div>
+            </div>
+            <div class="col align-items-stretch">
+                <div class="home-category-card home-category-card__core-data" data-test-home="core-data-feature"
+                     style="background-image: url({% static "images/core-financial-card-bg.png" %}), linear-gradient(135deg,#0b5c73 0,#0a2d3f 100%);">
+                    <h3 class="home-category-card--header">Core Financial Data</h3>
+                    <p class="home-category-card--paragraph">Quandl delivers market data from hundreds of sources via
+                        API,
+                        or
+                        directly into Python, R, Excel and many other tools. Save time and money by getting the data you
+                        need in
+                        the format you want.</p>
+                    <div class="home-category--list-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section> <!-- About Section End-->
 <section class="section">
     <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -182,136 +236,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="background-color: #edf1f5;">
-        <h4>Making a better world</h4>
-        <div class="row">
-            <div class="col align-items-stretch">
-                <div class="home-category-card home-category-card__alt-data" data-test-home="alt-data-feature"
-                     style="background-image: url({% static "images/img_card.svg" %}), linear-gradient(135deg,#0b5c73 0,#0a2d3f 100%);">
-                    <h1 class="home-category-card--sub-header">For Institutional Clients Only</h1>
-                    <h3 class="home-category-card--header">Alternative Data</h3>
-                    <p class="home-category-card--paragraph">We bring undiscovered data from non-traditional publishers
-                        to
-                        investors
-                        seeking unique, predictive insights. We leverage exclusive relationships to deliver these
-                        alpha-generating
-                        datasets to our customers.</p>
-                    <div class="home-category-card--sub-header home-category-card--sub-header--small">Featured Data
-                    </div>
-                    <div class="home-category--list-container">
-                        <ul class="home-category--list">
-                            <li class="home-category-card--list-item">
-                                <a data-test-featured-alt-dataset="auto-sales-estimates"
-                                   href="/alternative-data/auto-sales-estimates" id="ember50"
-                                   class="home-category-card--list-item-link ember-view">Auto Sales Estimates</a>
-                            </li>
-                            <li class="home-category-card--list-item">
-                                <a data-test-featured-alt-dataset="company-hiring-activity"
-                                   href="/alternative-data/company-hiring-activity" id="ember51"
-                                   class="home-category-card--list-item-link ember-view">Company Hiring Activity</a>
-                            </li>
-                            <li class="home-category-card--list-item">
-                                <a data-test-featured-alt-dataset="corporate-aviation-intelligence"
-                                   href="/alternative-data/corporate-aviation-intelligence" id="ember52"
-                                   class="home-category-card--list-item-link ember-view">Corporate Aviation
-                                    Intelligence</a>
-                            </li>
-                            <li class="home-category-card--list-item">
-                                <a data-test-featured-alt-dataset="company-spending-and-payment-patterns"
-                                   href="/alternative-data/company-spending-and-payment-patterns" id="ember53"
-                                   class="home-category-card--list-item-link ember-view">Company Spending and Payment
-                                    Patterns</a>
-                            </li>
-                            <li class="home-category-card--list-item">
-                                <a data-test-featured-alt-dataset="fx-transaction-volumes"
-                                   href="/alternative-data/fx-transaction-volumes" id="ember54"
-                                   class="home-category-card--list-item-link ember-view">FX Transaction Volumes</a>
-                            </li>
-                            <li class="home-category-card--list-item">
-                                <a data-test-featured-alt-dataset="fx-flow-monitor"
-                                   href="/alternative-data/fx-flow-monitor"
-                                   id="ember55" class="home-category-card--list-item-link ember-view">FX Flow
-                                    Monitor</a>
-                            </li>
 
-                            <li class="home-category-card--list-item-last">
-                                <h4 class="small-header f-color-white u-margin-bottom-10">View All Alternative Data
-                                    Products</h4>
-                                <p class="home-category-card--paragraph">Quandl’s Alternative Data Portfolio is
-                                    available to
-                                    select
-                                    institutional clients. View the alternative data products we offer along with our
-                                    data
-                                    science
-                                    team’s analysis of the predictive value of each.</p>
-                                <a class="u-uppercase" data-test-home="adp-request-access" data-ember-action=""
-                                   data-ember-action-56="56">Request access</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <a data-test-home="learn-more" href="/alternative-data" id="ember57"
-                       class="home-category-card--cta b-button b-button b-button--blue ember-view"> Learn more about
-                        alternative
-                        data
-                    </a>
-                </div>
-            </div>
-            <div class="col align-items-stretch">
-                <div class="home-category-card home-category-card__core-data" data-test-home="core-data-feature"
-                     style="background-image: url({% static "images/core-financial-card-bg.png" %}), linear-gradient(135deg,#0b5c73 0,#0a2d3f 100%);">
-                    <h1 class="home-category-card--sub-header">For Everyone</h1>
-                    <h3 class="home-category-card--header">Core Financial Data</h3>
-                    <p class="home-category-card--paragraph">Quandl delivers market data from hundreds of sources via
-                        API,
-                        or
-                        directly into Python, R, Excel and many other tools. Save time and money by getting the data you
-                        need in
-                        the format you want.</p>
-                    <div class="home-category-card--sub-header home-category-card--sub-header--small">Featured Data
-                    </div>
-                    <div class="home-category--list-container">
-                        <ul class="home-category--list">
-                            <li class="home-category-card--list-item">
-                                <a data-test-home="EOD" href="/data/EOD" id="ember59"
-                                   class="home-category-card--list-item-link ember-view">End of Day US Stock Prices</a>
-                            </li>
-                            <li class="home-category-card--list-item">
-                                <a data-test-home="SF1" href="/databases/SF1" id="ember60"
-                                   class="home-category-card--list-item-link ember-view">Core US Fundamentals data</a>
-                            </li>
-                            <li class="home-category-card--list-item">
-                                <a data-test-home="VOL" href="/data/VOL" id="ember61"
-                                   class="home-category-card--list-item-link ember-view">US Equity Historical &amp;
-                                    Option
-                                    Implied Volatilities</a>
-                            </li>
-                            <li class="home-category-card--list-item">
-                                <a data-test-home="SCF" href="/databases/SCF" id="ember62"
-                                   class="home-category-card--list-item-link ember-view">Continuous Futures</a>
-                            </li>
-                            <li class="home-category-card--list-item">
-                                <a data-test-home="SGE" href="/data/SGE" id="ember63"
-                                   class="home-category-card--list-item-link ember-view">Trading Economics</a>
-                            </li>
-                            <li class="home-category-card--list-item">
-                                <a data-test-home="BNC2" href="/data/BNC2" id="ember64"
-                                   class="home-category-card--list-item-link ember-view">BNC Digital Currency Indexed
-                                    EOD</a>
-                            </li>
-                            <li class="home-category-card--list-item">
-                                <a data-test-home="MF1" href="/databases/MF1" id="ember65"
-                                   class="home-category-card--list-item-link ember-view">Global Fundamentals Data</a>
-                            </li>
-                            <li class="home-category-card--list-item">
-                                <a data-test-home="" href="/data/BCIW" id="ember66"
-                                   class="home-category-card--list-item-link ember-view">Global Index Prices</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div id="app" class="columns"><!-- React --></div>
 </section>
 
